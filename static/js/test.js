@@ -70,7 +70,7 @@ $(document).ready(function() {
             type: 'GET',
             cache:false,
             success: function(res){
-                var data = JSON.parse(res);
+                var data = res;
                 hot.loadData(data.data);
                 exampleConsole.innerText = 'Data loaded';
             },
