@@ -1,0 +1,9 @@
+{
+	"data": [
+		["Intent Name", "Test phrases", "Action", "Parameter", "Output", "Comments"],
+		["alarm.set","set alarm", "alarm.set", "date", "mkay", "has context"],
+		["alarm.remove", "remove alarm", "alarm.remove", "date", "okay", "has context"],
+		["alarm.get", "show my alarm", "alarm.get", "date", "as you wish", "has context"],
+		["alarm.change", "modify alarm", "alarm.change", "date", "okay", "has context"]
+	]
+}
