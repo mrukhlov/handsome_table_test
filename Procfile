@@ -1,0 +1,1 @@
+web: python flask_hot_test.py
